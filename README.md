@@ -67,6 +67,7 @@ Socket.io for real-time transcription syncing
 AWS S3 / Cloudinary for media storage (audio/PDFs)
 
 🧠 AI Integrations
+
 OpenAI Whisper / Google Speech-to-Text for transcription
 GPT-4 (via OpenAI API) for summarization
 LangChain / DeepEval for document analysis and interaction
