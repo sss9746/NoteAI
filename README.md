@@ -2,7 +2,8 @@
 📚 App Summary
 NoteAi is a note-taking application inspired by Notability, enhanced with AI-powered features. It supports handwritten and typed notes, synchronized audio recordings, and versatile document annotation. In addition, NoteAi introduces advanced AI features including live speech-to-text transcription, contextual summarization, semantic search, intelligent document answering to boost learning and productivity, and live note collaboration
 
-✏️ Core Features (Inspired by Notability)
+#✏️ Core Features (Inspired by Notability)
+
 Handwriting & Drawing
 Apple Pencil compatibility
 Tools: Pen, Highlighter, Eraser, Lasso, Shape Recognition
@@ -15,7 +16,7 @@ Highlight, underline, write, and comment
 Note Organization
 Subjects, folders, tags, search
 
-🤖 AI Assistance Features
+#🤖 AI Assistance Features
 Live Transcription
 Real-time conversion of speech into notes as users speak or during recordings.
 Transcribed text appears in the note-taking area in sync with the audio timeline.
@@ -42,8 +43,8 @@ Users can draw, type, and comment together.
 Live cursors and user labels for visibility.
 Ideal for classrooms, group studies, or team meetings.
 
-🚀 Tech Stack & Frameworks
-📱 Frontend (Cross-Platform)
+#🚀 Tech Stack & Frameworks
+#📱 Frontend (Cross-Platform)
 React Native (iOS & Android)
 Expo / Bare Workflow for Apple Pencil and native module access
 Canvas Implementation:
@@ -52,7 +53,7 @@ Android: Skia (react-native-skia) for high-performance canvas rendering
 react-native-pdf for PDF annotation
 redux / zustand for state management
 react-navigation for screen flows
-🛠️ Backend
+#🛠️ Backend
 Node.js with Express.js for RESTful APIs
 MongoDB (Mongoose) for note storage and user data
 Firebase (for real-time syncing and auth alternative)
@@ -64,7 +65,7 @@ GPT-4 (via OpenAI API) for summarization
 LangChain / DeepEval for document analysis and interaction
 Weaviate / Pinecone for semantic search with vector embeddings
 
-👨‍💼 Frontend Team Tasks
+#👨‍💼 Frontend Team Tasks
 Implement Drawing Canvas:
 Swift + PencilKit module for iOS
 Skia canvas for Android fallback
@@ -75,7 +76,7 @@ Note organizer: folder creation, drag-drop, tags
 Audio recording UI + waveform + timestamp linkage
 Text editor with rich formatting and AI-suggested auto-fill
 
-📍 Backend Team Tasks
+#📍 Backend Team Tasks
 Setup user auth & session (JWT/Firebase Auth)
 Design MongoDB schema for users, notes, audio, transcripts
 Build API endpoints for notes CRUD, transcription, AI summary
@@ -84,7 +85,7 @@ Enable semantic vector search via Weaviate + OpenAI embeddings
 Build PDF document parsing for question detection & AI fill-in
 Real-time updates via WebSocket (Socket.io)
 
-🔗 Optional Stretch Goals
+#🔗 Optional Stretch Goals
 Cloud sync with Google Drive / iCloud using possible aws
 Multi-language transcription + translation
 AI voice assistant to control app hands-free
