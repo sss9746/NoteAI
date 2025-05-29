@@ -58,6 +58,7 @@ redux / zustand for state management
 react-navigation for screen flows
 
 #🛠️ Backend
+
 Node.js with Express.js for RESTful APIs
 MongoDB (Mongoose) for note storage and user data
 Firebase (for real-time syncing and auth alternative)
