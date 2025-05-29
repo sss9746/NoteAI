@@ -1,5 +1,6 @@
 # NoteAI
 📚 App Summary
+
 NoteAi is a note-taking application inspired by Notability, enhanced with AI-powered features. It supports handwritten and typed notes, synchronized audio recordings, and versatile document annotation. In addition, NoteAi introduces advanced AI features including live speech-to-text transcription, contextual summarization, semantic search, intelligent document answering to boost learning and productivity, and live note collaboration
 
 #✏️ Core Features (Inspired by Notability)
